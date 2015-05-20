@@ -3,9 +3,9 @@
 原版英文：https://www.packtpub.com/web-development/web-development-django-cookbook   
 作者：Aidas Bendoraitis  
 日期： October 2014  
-特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django
+特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django  
 级别：Cookbook  
-页数：Paperback294 pages  
+页数：Paperback 294 pages  
 
 扉页
 -------
