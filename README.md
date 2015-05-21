@@ -1,5 +1,5 @@
 # Web.Development.with.Django.Cookbook
-中文名：《Django网站开发Cookbook》，14年8月份的新书，可不是09年的那个 Django book  
+中文名：《Django网站开发Cookbook》，14年10月份的新书，可不是09年的那个 Django book  
 原版英文：https://www.packtpub.com/web-development/web-development-django-cookbook   
 作者：Aidas Bendoraitis  
 日期： October 2014  
