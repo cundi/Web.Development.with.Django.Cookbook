@@ -5,7 +5,8 @@
 日期： October 2014  
 特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django  
 级别：Cookbook  
-页数：Paperback 294 pages  
+页数：Paperback 294 pages    
+
 -------------------------  
 ## 简介
 
