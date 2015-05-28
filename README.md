@@ -21,7 +21,7 @@
 * 保持文章原文，不作修改。
 * 明确署名，即至少注明 `作者：cundi` 字样以及文章的原始链接。
 
-如需商业合作，[请直接联系作者](https://github.com/cssmagic/blog/issues/9)。
+如需商业合作，[请直接联系作者](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues/3)。
 
 
 扉页
