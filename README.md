@@ -1,16 +1,7 @@
-# Web.Development.with.Django.Cookbook
-中文名：《Django网站开发Cookbook》，14年10月份的新书，可不是09年的那个 Django book  
-原版英文：https://www.packtpub.com/web-development/web-development-django-cookbook   
-作者：Aidas Bendoraitis  
-日期： October 2014  
-特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django  
-级别：Cookbook  
-页数：Paperback 294 pages    
-
--------------------------  
+ 
 ## 简介
 
-所有译文均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues?state=open)。
+##所有译文均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues?state=open)。
 
 
 ## 版权协议
@@ -23,6 +14,17 @@
 * 明确署名，即至少注明 `作者：cundi` 字样以及文章的原始链接。
 
 如需商业合作，[请直接联系作者](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues/3)。
+
+------------------------- 
+
+# Web.Development.with.Django.Cookbook
+中文名：《Django网站开发Cookbook》，14年10月份的新书，可不是09年的那个 Django book  
+原版英文：https://www.packtpub.com/web-development/web-development-django-cookbook   
+作者：Aidas Bendoraitis  
+日期： October 2014  
+特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django  
+级别：Cookbook  
+页数：Paperback 294 pages    
 
 
 扉页
