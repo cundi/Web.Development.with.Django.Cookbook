@@ -1,7 +1,7 @@
  
 ## 简介
 
-##所有译文均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues?state=open)。
+##译文同时以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cundi/Web.Development.with.Django.Cookbook/issues?state=open)。
 
 
 ## 版权协议
