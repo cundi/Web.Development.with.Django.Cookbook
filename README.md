@@ -25,6 +25,8 @@
 特色：Over 70 practical recipes to create multilingual, responsive, and scalable websites with Django  
 级别：Cookbook  
 页数：Paperback 294 pages    
+
+*该书的第二版会在2016年二月份上市，具体情况看Packpub出版社的连接：https://www.packtpub.com/web-development/web-development-django-cookbook-second-edition*  
   
  
 第五章预览
