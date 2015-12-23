@@ -26,7 +26,7 @@
 级别：Cookbook  
 页数：Paperback 294 pages    
 
-*该书的第二版会在2016年二月份上市，具体情况看Packpub出版社的连接：https://www.packtpub.com/web-development/web-development-django-cookbook-second-edition*  
+**该书的第二版会在2016年二月份上市，具体情况看Packpub出版社的连接：https://www.packtpub.com/web-development/web-development-django-cookbook-second-edition， 既然都出第二版了还是等新版出来再更新吧**
   
  
 第五章预览
