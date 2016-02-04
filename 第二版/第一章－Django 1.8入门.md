@@ -3,21 +3,21 @@
 
 本章我们将讨论以下话题:
 
-使用虚拟环境
-创建项目文件的结构
-使用pip处理依赖
-让你的代码兼容Python2.7和Python 3
-在项目中包括外部依赖
-分别为开发、测试、过度和生产环境配置settings文件
-在settings中定义相对路径
-创建并包括本地settings
-为Subversion用户动态地设置STATIC_URL
-为Git用户动态地设置STATIC_URL
-设置UTF－8编码为MySQL的默认编码格式
-正确地设置Subversion的ignore内容
-创建一个Git的ignore文件
-删除Python编译文件
-考虑Python文件中的导入次序
+- 使用虚拟环境  
+- 创建项目文件的结构  
+- 使用pip处理依赖
+- 让你的代码兼容Python2.7和Python 3  
+- 在项目中包括外部依赖  
+- 分别为开发、测试、过度和生产环境配置settings文件  
+- 在settings中定义相对路径  
+- 创建并包括本地settings  
+- 为Subversion用户动态地设置STATIC_URL  
+- 为Git用户动态地设置STATIC_URL  
+- 设置UTF－8编码为MySQL的默认编码格式  
+- 正确地设置Subversion的ignore内容  
+- 创建一个Git的ignore文件  
+- 删除Python编译文件  
+- 考虑Python文件中的导入次序  
 
 ## 简介
 In this chapter, we will see a few good practices when starting a new project with Django 1.8 on Python 2.7 or Python 3. Some of the tricks introduced here are the best ways to deal with the project layout, settings, and configurations. However, for some tricks, you might have to find some alternatives online or in other books about Django. Feel free to evaluate and choose the best bits and pieces for yourself while digging deep into the Django world.  
