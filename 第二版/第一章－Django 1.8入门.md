@@ -122,11 +122,11 @@ img:omit
 
 
 ### See also
-The Handling project dependencies with pip recipe
-The Including external dependencies in your project recipe
-The Configuring settings for development, testing, staging, and production environments recipe
-The Deploying on Apache with mod_wsgi recipe in Chapter 11, Testing and Deployment
-The Creating and using the Fabric deployment script recipe in Chapter 11, Testing and Deployment
+- The Handling project dependencies with pip recipe
+- The Including external dependencies in your project recipe
+- The Configuring settings for development, testing, staging, and production environments recipe
+- The Deploying on Apache with mod_wsgi recipe in Chapter 11, Testing and Deployment
+- The Creating and using the Fabric deployment script recipe in Chapter 11, Testing and Deployment
 
 ## Handling project dependencies with pip
 The pip is the most convenient tool to install and manage Python packages. Besides installing the packages one by one, it is possible to define a list of packages that you want to install and pass it to the tool so that it deals with the list automatically.  
@@ -203,9 +203,9 @@ To install the modules in a new environment simply call the following command:
 >If you need to install a Python library from other version control system or local path, you can learn more about pip from the official documentation at http://pip-python3.readthedocs.org/en/latest/reference/pip_install.html.  
 
 ### See also
-The Working with a virtual environment recipe
-The Including external dependencies in your project recipe
-The Configuring settings for development, testing, staging, and production environments recipe
+- The Working with a virtual environment recipe
+- The Including external dependencies in your project recipe
+- The Configuring settings for development, testing, staging, and production environments recipe
 
 ## Making your code compatible with both Python 2.7 and Python 3
 Since version 1.7, Django can be used with Python 2.7 and Python 3. In this recipe, we will take a look at the operations to make your code compatible with both the Python versions.  
@@ -368,10 +368,10 @@ Therefore, we first define the `BASE_DIR` variable, which is the absolute path t
 >This way of including external libraries doesn't work cross-platform with the Python packages that have C language bindings, for example, lxml. For such dependencies, I would recommend using the pip requirements that were introduced in the *Handling project dependencies with pip* recipe.  
 
 ### See also
-The Creating a project file structure recipe
-The Handling project dependencies with pip recipe
-The Defining relative paths in the settings recipe
-The Using the Django shell recipe in Chapter 10, Bells and Whistles
+- The Creating a project file structure recipe
+- The Handling project dependencies with pip recipe
+- The Defining relative paths in the settings recipe
+- The Using the Django shell recipe in Chapter 10, Bells and Whistles
 
 ## Configuring settings for development, testing, staging, and production environments
 As noted earlier, you will be creating new features in the development environment, test them in the testing environment, then put the website to a staging server to let other people to try the new features, and lastly, the website will be deployed to the production server for public access. Each of these environments can have specific settings and you will see how to organize them in this recipe.  
@@ -430,10 +430,10 @@ DATABASES = {
 By default, the Django management commands use the settings from `myproject/settings.py`. Using the method that is defined in this recipe, we can keep all the required non-sensitive settings for all environments under version control in the conf directory. Whereas, the `settings.py` file itself would be ignored by version control and will only contain the settings that are necessary for the current development, testing, staging, or production environments.  
 
 ### See also
-The Creating and including local settings recipe
-The Defining relative paths in the settings recipe
-The Setting the Subversion ignore property recipe
-The Creating a Git ignore file recipe  
+- The Creating and including local settings recipe
+- The Defining relative paths in the settings recipe
+- The Setting the Subversion ignore property recipe
+- The Creating a Git ignore file recipe  
 
 ## Defining relative paths in the settings
 Django requires you to define different file paths in the settings, such as the root of your media, the root of your static files, the path to templates, the path to translation files, and so on. For each developer of your project, the paths may differ as the virtual environment can be set up anywhere and the user might be working on Mac OS X, Linux, or Windows. Anyway, there is a way to define these paths that are relative to your Django project directory.  
