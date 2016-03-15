@@ -24,10 +24,10 @@ In this chapter, we will see a few good practices when starting a new project wi
 
 I am assuming that you are already familiar with the basics of Django, Subversion and Git version control, MySQL and PostgreSQL databases, and command-line usage. Also, I am assuming that you are probably using a Unix-based operating system, such as Mac OS X or Linux. It makes more sense to develop with Django on Unix-based platforms as the websites will most likely be published on a Linux server, therefore, you can establish routines that work the same while developing as well as deploying. If you are locally working with Django on Windows, the routines are similar; however, they are not always the same.  
 
-## Working with a virtual environment
+## Working with a virtual environment 使用虚拟环境
 It is very likely that you will develop multiple Django projects on your computer. Some modules such as Python Imaging Library (or Pillow) and MySQLdb, can be installed once and then shared for all projects. Other modules such as Django, third-party Python libraries, and Django apps, will need to be kept isolated from each other. The virtualenv tool is a utility that separates all the Python projects in their own realms. In this recipe, we will see how to use it.
 
-### Getting ready
+### Getting ready 准备工作
 To manage Python packages, you will need pip. It is included in your Python installation if you are using Python 2.7.9 or Python 3.4+. If you are using another version of Python, install pip by executing the installation instructions at http://pip.readthedocs.org/en/stable/installing/. Let's install the shared Python modules Pillow and MySQLdb, and the virtualenv utility, using the following commands:
 
 ```python
@@ -36,7 +36,7 @@ $ sudo pip install MySQL-python
 $ sudo pip install virtualenv
 ```
 
-### How to do it…
+### How to do it… 具体做法
 Once you have your prerequisites installed, create a directory where all your Django projects will be stored, for example, `virtualenvs` under your home directory. Perform the following steps after creating the directory:  
 
 1. Go to the newly created directory and create a virtual environment that uses the shared system site packages:  
@@ -75,8 +75,10 @@ $ . bin/activate
 $ deactivate
 ```
 
-### How it works…
+### How it works… 实现原理
 When you create a virtual environment, a few specific directories (`bin`, `build`, `include`, and `lib`) are created in order to store a copy of the Python installation and some shared Python paths are defined. When the virtual environment is activated, whatever you have installed with `pip` or `easy_install` will be put in and used by the site packages of the virtual environment, and not the global site packages of your Python installation.  
+
+当你创建一个虚拟环境，
 
 To install Django 1.8 in your virtual environment, type the following command:  
 
@@ -84,7 +86,7 @@ To install Django 1.8 in your virtual environment, type the following command:
 (myproject_env)$ pip install Django==1.8
 ```
 
-### See also
+### See also 参见
 - The Creating a project file structure recipe  
 - The Deploying on Apache with mod_wsgi recipe in Chapter 11, Testing and Deployment  
 
